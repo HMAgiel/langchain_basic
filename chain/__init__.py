@@ -1,1 +1,1 @@
-from .rantai import parser
+from .rantai import *

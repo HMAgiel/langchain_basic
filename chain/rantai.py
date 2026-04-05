@@ -7,7 +7,7 @@ from model.config import llm
 
 class Penjelasan(BaseModel):
     definisi: str = Field(description="Definisi singkat yang mudah dimengerti bahasanya")
-    contoh: str = Field(description="Berikan contoh aplikasi pada kehidupan sehari-hari")
+    contoh: str = Field(description="Berikan contoh aplikasi pada kehidupan sehari-hari, buat dalam list angka kebawah")
 parser = PydanticOutputParser(pydantic_object=Penjelasan)
 
 

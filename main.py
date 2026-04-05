@@ -4,7 +4,7 @@ from chain.rantai import respon
 
 
 console = Console()
-print("Halo nama saya Anji Ai yang akan menjawab semua pertanyaanmu 😄")
+print("Halo nama saya AI asisten yang akan menjawab semua pertanyaanmu 😄")
 masuk_user = input("Ingin bahas topik apa hari ini? ")
 hasil = respon(masuk_user)
 out_for = f"""

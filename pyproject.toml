@@ -13,6 +13,7 @@ dependencies = [
     "markdown>=3.10.2",
     "numpy>=2.4.4",
     "pandas>=3.0.2",
+    "pydantic>=2.12.5",
 ]
 
 [tool.setuptools]
